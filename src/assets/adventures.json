@@ -1,0 +1,884 @@
+[
+    {
+        "name": "scorpion",
+        "value": 21,
+        "events": [
+            "addCamping",
+            "addPath",
+            "swapPath"
+        ]
+    },
+    {
+        "name": "deserted outpost",
+        "value": 46,
+        "events": [
+            "addPath"
+        ],
+        "choices": [
+            [
+                "removeAmmunition",
+                "removeAmmunition"
+            ],
+            [
+                "removeHealth",
+                "removeCamping"
+            ]
+        ]
+    },
+    {
+        "name": "thunderstorm",
+        "value": 35,
+        "events": [
+            "skipPath",
+            "skipPath"
+        ],
+        "choices": [
+            [
+                [
+                    "addHealth",
+                    "addCamping"
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "xavante",
+        "value": 22,
+        "choices": [
+            [
+                "addFood",
+                "removeCamping"
+            ],
+            [
+                "addNavigation",
+                "advanceGame"
+            ],
+            [
+                "diePlayer",
+                "advanceGame"
+            ]
+        ]
+    },
+    {
+        "name": "injury",
+        "value": 33,
+        "events": [
+            "addCamping",
+            "addHealth",
+            "addHealth"
+        ],
+        "options": [
+            [
+                "addJungle",
+                "removeFood",
+                "removeFood"
+            ]
+        ]
+    },
+    {
+        "name": "xinguano",
+        "value": 2,
+        "choices": [
+            [
+                "addAmmunition",
+                "removeCamping",
+                "swapPath"
+            ],
+            [
+                "addHealth",
+                "addHealth",
+                "advanceGame"
+            ],
+            [
+                "die"
+            ]
+        ]
+    },
+    {
+        "name": "tapirapé",
+        "value": 49,
+        "choices": [
+            [
+                "addJungle",
+                "advanceGame"
+            ],
+            [
+                "addNavigation",
+                "removeJungle"
+            ],
+            [
+                "addJungle",
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "thick fog",
+        "value": 7,
+        "events": [
+            "addNavigation",
+            "swapPath",
+            "skipPath"
+        ]
+    },
+    {
+        "name" : "progress",
+        "value": 18,
+        "choices": [
+            [
+                "addNavigation",
+                "advanceGame"
+            ],
+            [
+                "addNavigation",
+                "removeFood",
+                "removeFood"
+            ],
+            [
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "ambush",
+        "value": 17,
+        "events": [
+            "removeHealth",
+            "addPath",
+            "skipPath"
+        ],
+        "choices": [
+            [
+                "removeHealth"
+            ],
+            [
+                "removeJungle",
+                "removeJungle"
+            ]
+        ]
+    },
+    {
+        "name": "bakairí",
+        "value": 13,
+        "choices": [
+            [
+                "removeFood",
+                "addCamping"
+            ],
+            [
+                "removeAmmunition",
+                "swapPath"
+            ],
+            [
+                "removeHealth",
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "infected wound",
+        "value": 28,
+        "events": [
+            "removeHealth",
+            "addCamping"
+        ],
+        "choices": [
+            [
+                "removeHealth"
+            ],
+            [
+                "removeNavigation"
+            ]
+        ]
+    },
+    {
+        "name": "insects",
+        "value": 36,
+        "events": [
+            "removeNavigation",
+            "skipPath",
+            "addNavigation",
+            "removePath"
+        ]
+    },
+    {
+        "name": "clearing",
+        "value": 4,
+        "options":[
+            [
+                "removeCamping",
+                "addFood",
+                "addFood"
+            ],
+            [
+                "removeCamping",
+                "addHealth"
+            ]
+        ]
+    },
+    {
+        "name": "rope bridge",
+        "value": 50,
+        "events":[
+            "swapPath"
+        ],
+        "choices": [
+            [
+                "removeNavigation",
+                "advanceGame"
+            ],
+            [
+                "advanceGame",
+                "diePlayer"
+            ],
+            [
+                "addPath"
+            ]
+        ]
+    },
+    {
+        "name": "peccary!",
+        "value": 41,
+        "events": [
+            "addNavigation",
+            "skipPath"
+        ],
+        "choices":[
+            [
+                "removeFood"
+            ],
+            [
+                "removeNavigation",
+                "addFood",
+                "addFood"
+            ],
+            [
+                "removeAmmunition",
+                "addFood",
+                "addFood"
+            ]
+        ]
+    },
+    {
+        "name":"cougar",
+        "value": 30,
+        "choices":[
+            [
+                "removeAmmunition",
+                "addNavigation"
+            ],
+            [
+                "removeJungle"
+            ]
+        ]
+    },
+    {
+        "name": "awa",
+        "value": 42,
+        "choices":[
+            [
+                "addNavigation"
+            ],
+            [
+                "removeFood",
+                "addHealth"
+            ],
+            [
+                "removeFood",
+                "advanceGame"
+            ]
+        ]
+    },
+    {
+        "name": "venomous spider",
+        "value": 27,
+        "events":[
+            "swapPath"
+        ],
+        "choices":[
+            [
+                "removeCamping"
+            ],
+            [
+                "diePlayer"
+            ]
+        ]
+    },
+    {
+        "name": "spoiled supplies",
+        "value": 55,
+        "events":[
+            "removeFood"
+        ]
+    },
+    {
+        "name": "vampire bats",
+        "value": 9,
+        "events":[
+            "addFood"
+        ],
+        "choices":[
+            [
+                "removeCamping"
+            ],
+            [
+                "removeFood",
+                "removeFood"
+            ]
+        ]
+    },
+    {
+        "name": "amanayé",
+        "value": 14,
+        "choices":[
+            [
+                "removeHealth",
+                "addNavigation"
+            ],
+            [
+                "removeFood",
+                "removeFood",
+                "advanceGame"
+            ],
+            [
+                "removeAmmunition",
+                "skipPath",
+                "skipPath"
+            ],
+            [
+                "diePlayer"
+            ]
+        ]
+    },
+    {
+        "name": "rapids",
+        "value": 29,
+        "choices":[
+            [
+                "removeFood",
+                "addPath",
+                "advanceGame"
+            ],
+            [
+                "removeFood",
+                "removeNavigation",
+                "advanceGame"
+            ]
+        ],
+        "options":[
+            [
+                "removeJungle",
+                "swapPath",
+                "swapPath"
+            ]
+        ]
+    },
+    {
+        "name": "hook worms",
+        "value": 31,
+        "choices":[
+            [
+                "removeCamping"
+            ],
+            [
+                "removeHealth"
+            ],
+            [
+                "removeAmmunition"
+            ]
+        ]
+    },
+    {
+        "name": "steep path",
+        "value": 19,
+        "choices":[
+            [
+                "removeHealth",
+                "removeHealth",
+                "skipPath",
+                "advanceGame"
+            ],
+            [
+                "removeFood",
+                "addNavigation"
+            ]
+        ]
+    },
+    {
+        "name": "footprints",
+        "value": 8,
+        "choices":[
+            [
+                "skipPath",
+                "advanceGame"
+            ],
+            [
+                "addFood",
+                "addFood",
+                "addFood"
+            ]
+        ]
+    },
+    {
+        "name": "kapok",
+        "value": 47,
+        "events":[
+            "removeFood",
+            "addCamping"
+        ],
+        "options":[
+            [
+                "removeNavigation",
+                "addHealth",
+                "removePath"
+            ]
+        ]
+    },
+    {
+        "name": "poisonous frog",
+        "value": 16,
+        "events":[
+            "removeHealth",
+            "skipPath"
+        ],
+        "options":[
+            [
+                "removeNavigation",
+                "addJungle"
+            ]
+        ]
+    },
+    {
+        "name": "swamp",
+        "value": 56,
+        "events":[
+            "addPath"
+        ],
+        "choices":[
+            [
+                "removeNavigation"
+            ],
+            [
+                "removeHealth",
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "pounding rain",
+        "value": 26,
+        "events":[
+            "removeCamping",
+            "removeFood",
+            "swapPath",
+            "skipPath"
+        ]
+    },
+    {
+        "name": "old pathway",
+        "value": 11,
+        "choices":[
+            [
+                "advanceGame",
+                "addPath"
+            ],
+            [
+                "addJungle",
+                "addCamping"
+            ]
+        ]
+    },
+    {
+        "name": "dehydration",
+        "value": 54,
+        "choices":[
+            [
+                "removeCamping",
+                "removeCamping"
+            ],
+            [
+                "addPath", 
+                "addPath"
+            ]
+        ]
+    },
+    {
+        "name": "ruins",
+        "value": 32,
+        "events":[
+            "removeFood",
+            "removePath",
+            "removePath"
+        ],
+        "options":[
+            [
+                "removeHealth",
+                "removeNavigation",
+                "advanceGame"
+            ],
+            [
+                "removeFood",
+                "removeCamping",
+                "advanceGame"
+            ]
+        ]
+    },
+    {
+        "name": "river crossing",
+        "value": 39,
+        "events": [
+            "skipPath"
+        ],
+        "choices":[
+            [
+                "addNavigation"
+            ],
+            [
+                "removeNavigation",
+                "advanceGame"
+            ],
+            [
+                "advanceGame",
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "healing herbs",
+        "value": 10,
+        "events":[
+            "skipPath"
+        ],
+        "options":[
+            [
+                "removeJungle",
+                "addHealth",
+                "addHealth",
+                "addPath"
+            ]
+        ]
+    },
+    {
+        "name": "abandoned camp!",
+        "value": 1,
+        "choices":[
+            [
+                "addNavigation",
+                "addJungle",
+                "addCamping"
+            ],
+            [
+                "addAmmunition",
+                "addAmmunition"
+            ]
+        ]
+    },
+    {
+        "name": "faulty kit",
+        "value": 38,
+        "events":[
+            "swapPath"
+        ],
+        "choices":[
+            [
+                "removeCamping"
+            ],
+            [
+                "removeHealth"
+            ],
+            [
+                "removeAmmunition"
+            ]
+        ]
+    },
+    {
+        "name": "electric eels",
+        "value": 37,
+        "events":[
+            "addPath"
+        ],
+        "options":[
+            [
+                "removeHealth",
+                "addFood",
+                "addFood"
+            ]
+        ]
+    },
+    {
+        "name": "ants",
+        "value": 24,
+        "events":[
+            "skipPath",
+            "skipPath"
+        ],
+        "options":[
+            [
+                "removeHealth",
+                "addFood",
+                "addFood"
+            ]
+        ]
+    },
+    {
+        "name": "nightshade",
+        "value": 45,
+        "events":[
+            "skipPath"
+        ],
+        "choices":[
+            [
+                "removeFood"
+            ],
+            [
+                "removeJungle"
+            ]
+        ]
+    },
+    {
+        "name": "anaconda",
+        "value": 12,
+        "choices":[
+            [
+                "removeAmmunition",
+                "addFood"
+            ],
+            [
+                "removeAmmunition",
+                "addNavigation"
+            ],
+            [
+                "removeHealth",
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "monkey",
+        "value": 51,
+        "events": [
+            "removeFood",
+            "addNavigation",
+            "addJungle"
+        ]
+    },
+    {
+        "name": "lost",
+        "value": 34,
+        "choices":[
+            [
+                "addPath",
+                "addPath",
+                "addCamping",
+                "skipPath"
+            ],
+            [
+                "removeNavigation",
+                "removeNavigation",
+                "advanceGame"
+            ]
+        ]
+    },
+    {
+        "name": "swarm",
+        "value": 23,
+        "choices":[
+            [
+                "removeCamping"
+            ],
+            [
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name":"fever",
+        "value":43,
+        "events":[
+            "removeHealth",
+            "swapPath"
+        ],
+        "choices":[
+            [
+                "removeHealth"
+            ],
+            [
+                "removeCamping"
+            ]
+        ]
+    },
+    {
+        "name": "bushmaster",
+        "value": 20,
+        "choices":[
+            [
+                "removeAmmunition",
+                "addFood"
+            ],
+            [
+                "removeHealth",
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "kalapalos",
+        "value": 3,
+        "choices":[
+            [
+                "addFood"
+            ],
+            [
+                "skipPath"
+            ],
+            [
+                "addNavigation",
+                "addJungle"
+            ]
+        ]
+    },
+    {
+        "name": "crocodile",
+        "value": 25,
+        "choices":[
+            [
+                "removeAmmunition",
+                "addFood",
+                "addFood"
+            ],
+            [
+                "addPath",
+                "addPath"
+            ]
+        ]        
+    },
+    {
+        "name": "leeches",
+        "value": 53,
+        "events":[
+            "removeHealth",
+            "removeFood",
+            "removePath"
+        ]
+    },
+    {
+        "name": "mudslide",
+        "value": 52,
+        "events":[
+            "removeHealth",
+            "removeFood",
+            "swapPath"
+        ],
+        "choices":[
+            [
+                "removeHealth"
+            ],
+            [
+                "removeCamping"
+            ]
+        ]
+    },
+    {
+        "name": "hi'aito'ihi",
+        "value": 44,
+        "choices":[
+            [
+                "removeAmmunition",
+                "removeHealth",
+                "advanceGame"
+            ],
+            [
+                "diePlayer",
+                "advanceGame"
+            ],
+            [
+                "removeHealth",
+                "addNavigation",
+                "addCamping"
+            ]
+        ]
+    },
+    {
+        "name": "vantage point",
+        "value": 48,
+        "events":[
+            "removeHealth",
+            "swapPath",
+            "addJungle"
+        ],
+        "options":[
+            [
+                "removeAmmunition",
+                "addFood"
+            ]
+        ]
+    },
+    {
+        "name": "jaguar",
+        "value": 6,
+        "choices":[
+            [
+                "removeHealth",
+                "removeHealth",
+                "skipPath"
+            ],
+            [
+                "removeAmmunition",
+                "addJungle"
+            ]
+        ]
+    },
+    {
+        "name": "black panther",
+        "value": 40,
+        "events":[
+            "addJungle"
+        ],
+        "choices":[
+            [
+                "removeAmmunition",
+                "addFood"
+            ],
+            [
+                "removeFood",
+                "removeFood"
+            ],
+            [
+                "removeHealth",
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "piranhas",
+        "value": 15,
+        "choices":[
+            [
+                "removeFood",
+                "removeFood",
+                "advanceGame"
+            ],
+            [
+                "advanceGame",
+                "removeHealth"
+            ]
+        ]
+    },
+    {
+        "name": "the path ahead",
+        "value": 5,
+        "events":[
+            "addPath"
+        ],
+        "options":[
+            [
+                "removeNavigation",
+                "advanceGame"
+            ],
+            [
+                "removeAmmunition",
+                "addFood"
+            ]
+        ]
+    }
+]
